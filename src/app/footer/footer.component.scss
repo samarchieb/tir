@@ -1,0 +1,63 @@
+.trait_dessus {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    width: 100%;
+    height: 10px;
+    margin-top: -2%;
+    background-color: #dd4b4b;
+}
+
+    
+.cookie-container {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: rgba(0, 0, 0, 0.85);
+    color: var(--white-text);
+    position: fixed;
+    bottom:0;
+    font-size: 1rem;
+    gap: 2rem;
+    opacity: 1;
+    visibility: visible;
+    flex-wrap: wrap;
+}
+
+.cookie-container.hide {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.cookie-container a {
+    color: var(--white-color);
+}
+
+.cookie-container a:hover {
+    color: var(--hover-text);
+}
+
+.cookie-container .cookie-text {
+    flex: 8 768px;
+}
+
+.cookie-container .agree {
+    flex: 1 150px;
+    text-align: center;
+}
+
+.agree button {
+    background: #dd4b4b;
+    color: var(--button-text);
+    border: none;
+    padding: 0.4rem 1.2rem;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+
+.agree button:hover {
+ background: #dd4b4b;
+        color: var(--white-text);
+}

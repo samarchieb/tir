@@ -1,0 +1,131 @@
+
+.issfframe_wrapper.spacing-top {
+    margin-top: 10px;
+}
+
+.issfframe_title {
+    height: auto;
+    min-height: 34px;
+}
+
+.border_orange_title {
+    background-color: #86b7fe;
+}
+
+.issfframe_title {
+    box-sizing: border-box;
+    color: #FFF;
+    font-family: ISSFFONTMedium;
+    padding-left: 9px;
+    padding-right: 8px;
+    padding-top: 5px;
+    text-transform: uppercase;
+    height: 34px;
+    font-size: 24px;
+}
+
+.issfframe_title + .border_content {
+    clear: both;
+}
+
+.border_content {
+    overflow: visible;
+    padding: 5px;
+    background-color: #FFF;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.border_content .border_innerbackground {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.calendar-list-wrapper {
+    margin: 0 9px;
+    padding-bottom: 9px;
+    padding-top: 9px;
+    overflow: hidden;
+}
+
+
+.calendar-list-wrapper .year-wrapper {
+    margin-bottom: 8px;
+}
+
+.calendar-list-wrapper .yearselect p {
+    display: inline-block;
+    color: #86b7fe;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.calendar-list-wrapper .yearselect select {
+    width: auto;
+    display: inline;
+    padding-left: 8px;
+    padding-right: 5px;
+}
+
+.form-control {
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 8%) inset;
+    color: #404040;
+    display: block;
+    font-size: 14px;
+    line-height: 1.42857;
+    padding: 6px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.calendar-list-wrapper .currentyear {
+    text-align: right;
+}
+
+.calendar-list-wrapper .currentyear span {
+    color: #86b7fe;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.calendar-list-wrapper .filter {
+    margin-bottom: 5px;
+}
+
+.calendar-list-wrapper .filter label {
+    margin-left: 0.25rem;
+    margin-right: 1rem;
+}
+
+.calendar-list {
+    overflow: hidden;
+}
+
+.calendar-list .month {
+    margin-top: 15px;
+}
+
+.calendar-list .monthheader {
+    color: #86b7fe;
+    font-weight: bold;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.calendar-list .monthheader.collapsed::after {
+    content: "\f107";
+}
+
+.calendar-list .monthheader::after {
+    content: "\f106";
+}
